@@ -1,46 +1,78 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-
-#header,
-#p {
   background-color: #f0e2c5;
-  color: #49281a;
-  text-align: center;
-  display: inline-block;
+}
+.bg-primary {
+  background-color: #f0e2c5;
 }
 
-#main-heading {
+.bg-secondary {
+  background-color: #49281a;
+}
+.text-primary {
+  color: #f0e2c5;
+}
+.text-secondary {
+  color: #49281a;
+}
+.header-font {
   font-family: "Playfair Display SC", serif;
 }
-
-#sub-heading {
+.body-font {
   font-family: "Lato", serif;
 }
-a {
-  background-color: #49281a;
-  color: white;
-  width: 100px;
-  height: 40px;
 
-  line-height: 20px;
-  display: inline-block;
+#header {
+  border: 2px solid #000;
   text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
+  padding: 20px 0;
 }
 
-#head-section {
-  background-color: red;
-  color: white;
-  width: 100px;
-  height: 40px;
+#header h1 {
+  padding: 15px 0;
+  font-size: 3rem;
+}
 
-  line-height: 20px;
-  display: inline-block;
-  text-align: center;
+#header p {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#header a {
   text-decoration: none;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: 0;
+  padding: 0 10px;
+  font-family: "Lato", serif;
+  margin-right: 20px;
+}
+nav a:hover {
+  border-bottom: 2px solid#f0e2c5;
+}
+
+#about-us,
+#contact-us {
+  border: 2px solid #000;
+  padding: 20px 0;
+}
+
+#about-us h1,
+#contact-us h1 {
+  padding-left: 10px;
+}
+
+#about-us p,
+#contact-us p {
+  font-family: lato, serif;
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.5em;
 }
