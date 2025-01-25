@@ -1,0 +1,158 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+}
+
+.bg-primary {
+  background-color: #f0e2c5;
+}
+
+.bg-secondary {
+  background-color: #49281a;
+}
+
+.text-primary {
+  color: #f0e2c5;
+}
+
+.text-secondary {
+  color: #49281a;
+}
+.header-font {
+  font-family: "Playfair Display SC", serif;
+}
+
+.body-font {
+  font-family: "Lato", serif;
+}
+
+.p-20 { 
+  padding: 20px;
+}
+
+.px-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#header {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#header h1 {
+  padding: 15px 0;
+  font-size: 3rem;
+}
+
+#header p {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#header a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+nav,
+nav a {
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  padding: 0 20px;
+
+  font-family: "Lato", serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+
+#about-us,
+#contact-us {
+  border: 2px solid #000;
+  padding: 20px 0;
+}
+
+#about-us h1,
+#contact-us h1 {
+  padding-left: 20px solid;
+}
+
+#about-us p,
+#contact-us p {
+  font-family: "Lato", serif;
+  text-align: justify;
+  padding: 30px;
+  text-align: flex;
+  padding: 20px 30px;
+  border-left: 20px solid #49281a;
+  margin-top: 10px;
+}
+
+#menu .card {
+  border: 1px solid #f0e2c5;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#btn {
+  padding: 20px;
+  color: #49281a;
+  background-color: #f0e2c5;
+  box-sizing: border-box;
+}
+
+#contact-us {
+  border: 2px solid #f0e2c5;
+  padding-bottom: 20px;
+}
+
+#contact-us form {
+  font-family: "Lato", serif;
+  padding: 20px;
+}
+
+.form div {
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.form-label {
+  display: inline-block;
+  width: 150px;
+}
+
+.form-control {
+  width: 400px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #49281a;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  font-size: 1rem;
+}
+
+#to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #49281a;
+  color: #f0e2c5;
+} */

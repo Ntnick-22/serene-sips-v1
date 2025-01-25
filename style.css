@@ -1,9 +1,13 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: #f0e2c5;
 }
+
 .bg-primary {
   background-color: #f0e2c5;
 }
@@ -11,28 +15,38 @@
 .bg-secondary {
   background-color: #49281a;
 }
+
 .text-primary {
   color: #f0e2c5;
 }
+
 .text-secondary {
   color: #49281a;
 }
+
 .header-font {
   font-family: "Playfair Display SC", serif;
 }
+
 .body-font {
   font-family: "Lato", serif;
 }
 
-#header {
-  border: 2px solid #000;
-  text-align: center;
-  padding: 20px 0;
+#header,
+#our-menu,
+#contact-us,
+#about-us {
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
+#our-menu h1,
+#contact-us h1,
+#about-us h1,
 #header h1 {
-  padding: 15px 0;
-  font-size: 3rem;
+  padding: 0px;
+  margin-bottom: 10px;
+  font-size: rem;
 }
 
 #header p {
@@ -43,56 +57,78 @@
 #header a {
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(73, 40, 26, 0.9);
+  padding: 20px;
+  font-family: "lato", serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
-  background-color: #49281a;
   color: #f0e2c5;
-  text-decoration: 0;
-  padding: 0 10px;
-  font-family: "Lato", serif;
-  margin-right: 20px;
-}
-nav a:hover {
-  border-bottom: 2px solid#f0e2c5;
-}
+  text-decoration: none;
 
-#about-us,
-#contact-us {
-  border: 2px solid #000;
-  padding: 20px 0;
-}
-
-#about-us h1,
-#contact-us h1 {
-  padding-left: 10px;
-}
-
-#about-us p,
-#contact-us p {
-  font-family: lato, serif;
-  text-align: justify;
   padding: 10px;
-  line-height: 1.5em;
 }
-#contact-us form {
-  font-family: lato, serif;
-  /* border: 2px solid #000; */
+
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+
+#menu .card {
+  border: 1px solid #f0e2c5;
   padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  font-family: "Lato", serif;
 }
-form div {
-  /* background-color: aqua; */
-  margin-bottom: 10px;
+
+.card-title {
   padding: 10px 0;
 }
-.form-label {
-  display: inline-block;
-  width: 150px;
+
+.card-text {
+  line-height: 1.5em;
 }
-.form-control {
-  width: 400px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #49281a;
+.btn {
+  padding: 12px 20px;
+  transition: 1s;
+  margin-top: 20px;
+  cursor: pointer;
 }
+
+.btn:hover {
+  transform: translatey(-2px);
+  background-color: #655338;
+  /* box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2); */
+}
+
+.text-center {
+  text-align: center;
+}
+#to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #f0e2c5;
+  text-decoration: none;
+  background-color: #49281a;
+}
+
+#footer {
+  text-align: center;
+  font-family: "Lato", serif;
+  font-size: larger;
+}
+/* .btn:hover {
+  background-color: #98796c;
+  transform: scale(1.1);
+  cursor: context-menu;
+} */
