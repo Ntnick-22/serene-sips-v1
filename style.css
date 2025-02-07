@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+body,
+.form-control {
   background-color: #f0e2c5;
 }
 
@@ -35,10 +35,11 @@ body {
 .body-font {
   font-family: "Lato", serif;
 }
-
 #header {
-  background: url(images/head-pic.jpg) white;
+  background: url(images/head-pic2.jpg) left center no-repeat,
+    url(images/snack.jpg) right center no-repeat;
   background-size: contain;
+  background-color: white;
   padding-top: 20px;
 }
 
@@ -66,7 +67,7 @@ body {
 
 #header a {
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
 
   text-align: center;
@@ -84,40 +85,67 @@ nav {
 nav a {
   color: #f0e2c5;
   text-decoration: none;
-
+  text-align: center;
   padding: 40px;
 }
 
 nav a:hover {
   border-bottom: 2px solid #f0e2c5;
 }
-
-#menu .card {
-  border: 1px solid #f0e2c5;
-  padding: 20px;
-  border-radius: 50%;
+#our-menu .card {
+  border: 1px solid #000;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
   display: inline-block;
+  gap: 20px;
+}
+.card {
+  border: 1px solid #f0e2c5;
+  max-width: 100%;
+
+  padding: 20px;
   font-family: "Lato", serif;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .card-title {
+  margin-top: 10px;
   padding: 10px 0;
+  font-weight: bold;
 }
 
 .card-text {
   line-height: 1.5em;
+  padding: 10px;
 }
 .btn {
-  padding: 12px 20px;
-  transition: 1s;
-  margin-top: 20px;
-  cursor: pointer;
+  width: 100%;
+  display: block;
+  background-color: #49281a;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .btn:hover {
   transform: translatey(-2px);
   background-color: #655338;
-  /* box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2); */
 }
 #about-us p,
 #contact-us p {
@@ -125,6 +153,13 @@ nav a:hover {
   padding: 10px 0;
   text-align: justify;
   line-height: 1.5em;
+}
+.form-control {
+  max-width: 200px;
+  margin: 10px auto;
+  padding: 0px;
+  background: #f8f8f8;
+  border-radius: 10px;
 }
 
 #to-top {
@@ -144,4 +179,5 @@ nav a:hover {
   padding: 20px;
   font-size: 0.9rem;
   background-color: #49281a;
+  color: #f0e2c5;
 }
