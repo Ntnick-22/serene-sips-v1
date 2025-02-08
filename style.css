@@ -8,6 +8,10 @@ body,
   background-color: #f0e2c5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-primary {
   background-color: #f0e2c5;
 }
@@ -92,27 +96,18 @@ nav a {
 nav a:hover {
   border-bottom: 2px solid #f0e2c5;
 }
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 #our-menu .card {
   border: 1px solid #000;
-  width: 250px;
+  width: 300px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  display: inline-block;
-  gap: 20px;
-}
-.card {
-  border: 1px solid #f0e2c5;
-  max-width: 100%;
-
-  padding: 20px;
   font-family: "Lato", serif;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   text-align: center;
 }
 
@@ -147,6 +142,7 @@ nav a:hover {
   transform: translatey(-2px);
   background-color: #655338;
 }
+
 #about-us p,
 #contact-us p {
   font-family: "Lato", serif;
