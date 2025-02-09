@@ -40,11 +40,13 @@ html {
   font-family: "Lato", serif;
 }
 #header {
-  background: url(images/head-pic2.jpg) left center no-repeat,
-    url(images/snack.jpg) right center no-repeat;
-  background-size: contain;
+  background: url(images/web-logo-pic.jpg) no-repeat center center;
+  background-size: cover; /* Ensures the whole image is visible */
   background-color: white;
-  padding-top: 20px;
+  height: 50ch; /* Adjust this to control header height */
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #header,
@@ -53,6 +55,7 @@ html {
 #about-us {
   padding-left: 20px;
   margin-bottom: 20px;
+  background-color: #f0e2c5;
 }
 
 #our-menu h1,
@@ -73,7 +76,7 @@ html {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-
+  height: 200px;
   text-align: center;
 }
 
@@ -84,6 +87,10 @@ nav {
   text-align: center;
   position: sticky;
   top: 0;
+}
+
+.social-icons {
+  text-align: center;
 }
 
 nav a {
@@ -126,6 +133,10 @@ nav a:hover {
 .card-text {
   line-height: 1.5em;
   padding: 10px;
+}
+.span {
+  margin-top: 20px;
+  padding-top: 20px;
 }
 .btn {
   width: 100%;
